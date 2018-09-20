@@ -12,14 +12,15 @@ namespace CommercePlacer.Api.OrderDetails
     public class OrderDetailsApi : IOrderDetailsApi
     {
         private IEntityRepository<Order> orderRepo;
+        private IEntityRepository<OrderEntry> entryRepo;
 
-        public OrderDetailsApi(IEntityRepository<Order> orderRepo)
+        public OrderDetailsApi(IEntityRepository<Order> orderRepo, IEntityRepository<OrderEntry> entryRepo)
         {
             this.orderRepo = orderRepo;
             
             if (orderRepo is MockRepository<Order>)
             {
-                TestDataGen.PopulateTestData(orderRepo);
+                TestDataGen.PopulateTestData(orderRepo, entryRepo);
             }
         }
 
@@ -33,20 +34,40 @@ namespace CommercePlacer.Api.OrderDetails
 
         public NormalisedOrder Save(NormalisedOrder order)
         {
-            Order toSave = new Order(order);
-
             if (order.OrderId == 0)
             {
+                Order toSave = new Order(order);
                 return orderRepo.Insert(toSave).ToNormalisedOrder();
             }
             else
             {
+                Order toSave = orderRepo.GetById(order.OrderId);
+                toSave.OrderStatus = new OrderStatus
+                {
+                    Id = (int)order.OrderStatus
+                };
                 if (toSave.OrderPlaced == null)
                 {
-                    toSave.OrderPlaced = DateTime.Now();
+                    toSave.OrderPlaced = DateTime.Now;
                 }
                 return orderRepo.Update(toSave).ToNormalisedOrder();
             }
+        }
+
+        public OrderItem SaveEntry(OrderItem order)
+        {
+            var originalItem = entryRepo.GetById(order.OrderEntryId);
+            originalItem.Quantity = order.Quantity;
+
+            if (order.Quantity == 0)
+            {
+                entryRepo.DeleteById(order.OrderEntryId);
+
+                return order;
+            }
+            
+            entryRepo.Update(originalItem);
+            return order;
         }
     }
 }

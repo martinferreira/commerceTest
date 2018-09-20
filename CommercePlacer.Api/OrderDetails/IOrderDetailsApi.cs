@@ -8,5 +8,6 @@ namespace CommercePlacer.Api.OrderDetails
         IEnumerable<DenormalisedOrder> GetAllOrdersForReporting();
         NormalisedOrder GetOrderById(int orderId);
         NormalisedOrder Save(NormalisedOrder order);
+        OrderItem SaveEntry(OrderItem order);
     }
 }

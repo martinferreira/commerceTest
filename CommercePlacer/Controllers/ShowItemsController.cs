@@ -36,7 +36,14 @@ namespace CommercePlacer.ShowItems
         [HttpPost]
         public IActionResult SaveOrder(NormalisedOrder order)
         {
-            return View(api.Save(order));
+            api.Save(order);
+            return RedirectToAction("ManageOrder/" + order.OrderId);
+        }
+
+        [HttpPost]
+        public IActionResult Save(OrderItem order)
+        {
+            return View(api.SaveEntry(order));
         }
     }
 }

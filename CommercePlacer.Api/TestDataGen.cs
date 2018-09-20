@@ -11,7 +11,11 @@ namespace CommercePlacer.Api
 {
     public static class TestDataGen
     {
-        public static void PopulateTestData(IEntityRepository<Order> repo)
+
+
+
+
+        public static void PopulateTestData(IEntityRepository<Order> repo, IEntityRepository<OrderEntry> entryRepo)
         {
             if (repo.GetCount() > 0)
             {
@@ -35,13 +39,14 @@ namespace CommercePlacer.Api
                         Item = new ShoppingItem
                         {
                             Category = new ShoppingItemCategory(),
-                            Description = "Mock Item"
+                            Description = "Mock Item -" + new Random().Next(1000),
+                            Price= new Random().Next(1000)
                         },
                         Quantity = new Random().Next(5) + 1
                     };
                     newEntry.Item.Category.Description = "Mock Category";
+                    entryRepo.Insert(newEntry);
 
-                    
                     (order.Entries as List<OrderEntry>).Add(newEntry);
 
                 }
