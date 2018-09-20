@@ -108,3 +108,5 @@ C:\Source\commerceTest\CommercePlacer.Api\obj\Debug\CommercePlacer.Api.pdb
 C:\Source\commerceTest\CommercePlacer.Api\bin\Debug\DependencyInjectionLib.dll
 C:\Source\commerceTest\CommercePlacer.Api\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Source\commerceTest\CommercePlacer.Api\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Source\commerceTest\CommercePlacer.Api\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Source\commerceTest\CommercePlacer.Api\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml

@@ -1,18 +1,20 @@
-﻿
-@model IEnumerable<CommercePlacer.Common.Dto.DenormalisedOrder>
+﻿@model IEnumerable<CommercePlacer.Common.Dto.DenormalisedOrder>
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
     <table>
         <thead>
             <tr>
+                <td>Order Number</td>
                 <td>
                     Description
                 </td>
                 <td>
-                    Quanity
+                    Quantity
                 </td>
                 <td>
                     Price
                 </td>
+                <td></td>
 
             </tr>
         </thead>
@@ -20,13 +22,17 @@
             @foreach (var model in Model)
             {
             <tr>
+                <td>@Html.DisplayFor(m => model.OrderId)</td>
                 <td>@Html.DisplayFor(m => model.Description)</td>
                 <td>@Html.DisplayFor(m => model.Quantity)</td>
                 <td>@Html.DisplayFor(m => model.Price)</td>
+                <td>@Html.ActionLink("Edit", "/ManageOrder", "ShowItems", new { id = model.OrderId })</td>
             </tr>
-                
+
             }
         </tbody>
+
+        @Html.ActionLink("Create new Order", "/ManageOrder")
 
     </table>
 

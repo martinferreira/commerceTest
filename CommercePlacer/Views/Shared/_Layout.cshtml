@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    
+    <style>
+        table {
+            border-collapse: separate;
+            border: solid black 1px;
+            border-radius: 6px;
+            -moz-border-radius: 6px;
+            width: 75%;
+            margin: auto;
+            background-color: blue;
+        }
+
+
+        th, thead {
+            background-color: blue;
+            border-top: none;
+            color: white;
+            border: solid black 1px;
+            border-radius: 6px;
+        }
+
+        tbody td {
+            border-left: solid black 1px;
+            border-top: solid black 1px;
+            background-color: white;
+        }
+
+
+        td:first-child, th:first-child {
+            border-left: none;
+
+        }
+
+        td:last-child, th:last-child {
+            
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

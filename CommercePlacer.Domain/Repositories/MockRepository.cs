@@ -30,19 +30,25 @@ namespace CommercePlacer.Domain.Repositories
             return repo.FirstOrDefault(m => m.Id == id);
         }
 
-        public void Insert(TEntity toInsert)
+        public int GetCount()
+        {
+            return repo.Count;
+        }
+
+        public TEntity Insert(TEntity toInsert)
         {
             if (toInsert.Id == 0)
             {
-                toInsert.Id = repo.Count;
+                toInsert.Id = repo.Count+1;
             }
             repo.Add(toInsert);
+            return toInsert;
         }
 
-        public void Update(TEntity toUpdate)
+        public TEntity Update(TEntity toUpdate)
         {
             DeleteById(toUpdate.Id);
-            Insert(toUpdate);
+            return Insert(toUpdate);
         }
     }
 }

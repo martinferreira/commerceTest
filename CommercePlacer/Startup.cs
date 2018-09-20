@@ -30,7 +30,10 @@ namespace CommercePlacer
                 app.UseDeveloperExceptionPage();
             }
             this.environment = env.EnvironmentName;
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            });
 
 
         }

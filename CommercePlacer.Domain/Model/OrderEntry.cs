@@ -9,6 +9,17 @@ namespace CommercePlacer.Domain.Model
 {
     public class OrderEntry : EntityModel
     {
+        public OrderEntry()
+        {
+
+        }
+
+        public OrderEntry(OrderItem item) : this()
+        {
+            Item = new ShoppingItem(item.OrderEntryId, item.ItemCategoryId, item.ItemCategoryDescription, item.Price);
+            Quantity = item.Quantity;
+        }
+
         public ShoppingItem Item { get; set; }
         public int Quantity { get; set; }
 

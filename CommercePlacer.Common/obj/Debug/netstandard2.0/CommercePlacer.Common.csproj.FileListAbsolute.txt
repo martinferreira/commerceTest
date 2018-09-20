@@ -7,3 +7,6 @@ C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePl
 C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.AssemblyInfo.cs
 C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.dll
 C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.pdb
+C:\Source\commerceTest\CommercePlacer.Common\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Source\commerceTest\CommercePlacer.Common\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.csproj.CopyComplete

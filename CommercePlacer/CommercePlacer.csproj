@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Content Include="Controllers\ShowItemsController.cs" />
-    <Content Include="Views\ShowItems\Index.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>

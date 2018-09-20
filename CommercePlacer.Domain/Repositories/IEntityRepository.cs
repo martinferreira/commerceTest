@@ -10,9 +10,10 @@ namespace CommercePlacer.Domain.Repositories
     public interface IEntityRepository<TEntity> where TEntity : EntityModel
     {
         TEntity GetById(int id);
-        void Insert(TEntity toInsert);
-        void Update(TEntity toUpdate);
+        TEntity Insert(TEntity toInsert);
+        TEntity Update(TEntity toUpdate);
         void DeleteById(int id);
         List<TEntity> getAll();
+        int GetCount();
     }
 }

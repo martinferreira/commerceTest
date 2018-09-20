@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CommercePlacer.Api;
 using CommercePlacer.Api.OrderDetails;
+using CommercePlacer.Common.Dto;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CommercePlacer.ShowItems
@@ -20,6 +21,22 @@ namespace CommercePlacer.ShowItems
         public IActionResult Index()
         {
             return View(api.GetAllOrdersForReporting());
+        }
+
+        [HttpGet]
+        public IActionResult ManageOrder(int? id)
+        {
+            if (id == null)
+            {
+                NormalisedOrder order = api.Save(new NormalisedOrder());
+                return RedirectToAction("ManageOrder/" + order.OrderId);
+            }
+            return View(api.GetOrderById(id.Value));
+        }
+        [HttpPost]
+        public IActionResult SaveOrder(NormalisedOrder order)
+        {
+            return View(api.Save(order));
         }
     }
 }

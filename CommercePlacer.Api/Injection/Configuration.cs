@@ -25,12 +25,12 @@ namespace CommercePlacer.Api.Injection
         private static void ConfigureRepositories(IServiceCollection services, string environment)
         {
             if (IsMockEnvironment(environment)) {
-                services.AddScoped(typeof(IEntityRepository<>), typeof(MockRepository<>));
+                services.AddSingleton(typeof(IEntityRepository<>), typeof(MockRepository<>));
                 
             }
             else
             {
-                services.AddScoped(typeof(IEntityRepository<>), typeof(DatabaseRepository<>));
+                services.AddSingleton(typeof(IEntityRepository<>), typeof(DatabaseRepository<>));
             }
         }
 

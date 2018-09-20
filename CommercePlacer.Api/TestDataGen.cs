@@ -11,17 +11,12 @@ namespace CommercePlacer.Api
 {
     public static class TestDataGen
     {
-        public static List<DenormalisedOrder> TestStuff()
-        {
-            IEntityRepository<Order> repo = new MockRepository<Order>();
-            PopulateTestData(repo);
-            IOrderDetailsApi api = new OrderDetailsApi(repo);
-            return api.GetAllOrdersForReporting().ToList();
-
-        }
-
         public static void PopulateTestData(IEntityRepository<Order> repo)
         {
+            if (repo.GetCount() > 0)
+            {
+                return;
+            }
             for (int rows = 0; rows < 10; rows++)
             {
                 Order order = new Order
@@ -32,7 +27,7 @@ namespace CommercePlacer.Api
                 };
                 order.OrderStatus.Description = Common.Model.OrderStatus.OnRoute.ToString();
                 order.OrderStatus.Id =  (int) Common.Model.OrderStatus.OnRoute;
-
+                order.Entries = new List<OrderEntry>();
                 for (int entries = 0; entries < new Random().Next(5)+1; entries++)
                 {
                     OrderEntry newEntry = new OrderEntry
@@ -46,8 +41,8 @@ namespace CommercePlacer.Api
                     };
                     newEntry.Item.Category.Description = "Mock Category";
 
-                    order.Entries = new List<OrderEntry>();
-                    order.Entries.Add(newEntry);
+                    
+                    (order.Entries as List<OrderEntry>).Add(newEntry);
 
                 }
                 repo.Insert(order);

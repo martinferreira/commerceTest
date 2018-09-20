@@ -16,6 +16,7 @@ namespace CommercePlacer.Api.OrderDetails
         public OrderDetailsApi(IEntityRepository<Order> orderRepo)
         {
             this.orderRepo = orderRepo;
+            
             if (orderRepo is MockRepository<Order>)
             {
                 TestDataGen.PopulateTestData(orderRepo);
@@ -25,7 +26,27 @@ namespace CommercePlacer.Api.OrderDetails
 
         public IEnumerable<DenormalisedOrder> GetAllOrdersForReporting()
         {
-            return orderRepo.getAll().SelectMany( m => m.toNormalisedOrder());
+            return orderRepo.getAll().SelectMany( m => m.ToDenormalisedOrder());
+        }
+
+        public NormalisedOrder GetOrderById(int orderId) => orderRepo.GetById(orderId).ToNormalisedOrder();
+
+        public NormalisedOrder Save(NormalisedOrder order)
+        {
+            Order toSave = new Order(order);
+
+            if (order.OrderId == 0)
+            {
+                return orderRepo.Insert(toSave).ToNormalisedOrder();
+            }
+            else
+            {
+                if (toSave.OrderPlaced == null)
+                {
+                    toSave.OrderPlaced = DateTime.Now();
+                }
+                return orderRepo.Update(toSave).ToNormalisedOrder();
+            }
         }
     }
 }

@@ -103,3 +103,5 @@ C:\Source\commerceTest\CommercePlacer.Domain\obj\Debug\CommercePlacer.Domain.csp
 C:\Source\commerceTest\CommercePlacer.Domain\obj\Debug\CommercePlacer.Domain.csproj.CopyComplete
 C:\Source\commerceTest\CommercePlacer.Domain\obj\Debug\CommercePlacer.Domain.dll
 C:\Source\commerceTest\CommercePlacer.Domain\obj\Debug\CommercePlacer.Domain.pdb
+C:\Source\commerceTest\CommercePlacer.Domain\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Source\commerceTest\CommercePlacer.Domain\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml

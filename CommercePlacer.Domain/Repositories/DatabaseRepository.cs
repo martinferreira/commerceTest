@@ -24,12 +24,17 @@ namespace CommercePlacer.Domain.Repositories
             throw new NotImplementedException();
         }
 
-        public void Insert(TEntity toInsert)
+        public int GetCount()
         {
             throw new NotImplementedException();
         }
 
-        public void Update(TEntity toUpdate)
+        public TEntity Insert(TEntity toInsert)
+        {
+            throw new NotImplementedException();
+        }
+
+        public TEntity Update(TEntity toUpdate)
         {
             throw new NotImplementedException();
         }

@@ -13,6 +13,12 @@ namespace CommercePlacer.Common.Dto
         public OrderStatus OrderStatus { get; set; }
         public List<OrderItem> Items { get; set; }
 
+        public NormalisedOrder()
+        {
+            OrderStatus = OrderStatus.InProgress;
+            Items = new List<OrderItem>();
+        }
+
         public NormalisedOrder(int orderId, DateTime orderDate, OrderStatus orderStatus, List<OrderItem> items) 
         {
             OrderId = orderId;
@@ -20,6 +26,7 @@ namespace CommercePlacer.Common.Dto
             OrderStatus = OrderStatus;
             Items = items;
         }
+
 
         public double TotalCost
         {
