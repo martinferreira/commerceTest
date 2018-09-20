@@ -16,6 +16,10 @@ namespace CommercePlacer.Api.OrderDetails
         public OrderDetailsApi(IEntityRepository<Order> orderRepo)
         {
             this.orderRepo = orderRepo;
+            if (orderRepo is MockRepository<Order>)
+            {
+                TestDataGen.PopulateTestData(orderRepo);
+            }
         }
 
 

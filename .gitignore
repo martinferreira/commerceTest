@@ -12,3 +12,5 @@ CommercePlacer/obj/Debug/netcoreapp2\.1/
 *.dll
 
 \.vs/CommercePlacer/v15/Server/sqlite3/
+
+\.vs/CommercePlacer/DesignTimeBuild/

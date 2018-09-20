@@ -20,7 +20,7 @@ namespace CommercePlacer.Api
 
         }
 
-        private static void PopulateTestData(IEntityRepository<Order> repo)
+        public static void PopulateTestData(IEntityRepository<Order> repo)
         {
             for (int rows = 0; rows < 10; rows++)
             {

@@ -32,6 +32,7 @@ namespace CommercePlacer
             this.environment = env.EnvironmentName;
             app.UseMvcWithDefaultRoute();
 
+
         }
     }
 }
