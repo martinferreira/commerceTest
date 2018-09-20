@@ -1,0 +1,9 @@
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\bin\Debug\netstandard2.0\CommercePlacer.Data.deps.json
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\bin\Debug\netstandard2.0\CommercePlacer.Data.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\bin\Debug\netstandard2.0\CommercePlacer.Data.pdb
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.csproj.CoreCompileInputs.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.AssemblyInfoInputs.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.AssemblyInfo.cs
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.pdb
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.csprojAssemblyReference.cache

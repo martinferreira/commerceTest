@@ -1,0 +1,14 @@
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\bin\Debug\netcoreapp2.1\CommercePlacer.deps.json
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\bin\Debug\netcoreapp2.1\CommercePlacer.runtimeconfig.json
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\bin\Debug\netcoreapp2.1\CommercePlacer.runtimeconfig.dev.json
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\bin\Debug\netcoreapp2.1\CommercePlacer.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.csprojAssemblyReference.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.csproj.CoreCompileInputs.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.RazorAssemblyInfo.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.RazorAssemblyInfo.cs
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.AssemblyInfoInputs.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.AssemblyInfo.cs
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.RazorTargetAssemblyInfo.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\bin\Debug\netcoreapp2.1\CommercePlacer.pdb
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer\obj\Debug\netcoreapp2.1\CommercePlacer.pdb

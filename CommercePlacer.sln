@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommercePlacer", "CommercePlacer\CommercePlacer.csproj", "{74C6D1A7-776F-48B2-BEE4-A7B51FFCFD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommercePlacer.Api", "CommercePlacer.Api\CommercePlacer.Api.csproj", "{A64ACE04-3835-462D-BD26-DA3636557C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommercePlacer.Domain", "CommercePlacer.Domain\CommercePlacer.Domain.csproj", "{CBAB6D52-BBE9-4691-A928-A1FD9A2399BC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CommercePlacer.DataBase", "CommercePlacer.Data\CommercePlacer.DataBase.sqlproj", "{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommercePlacer.Common", "CommercePlacer.Common\CommercePlacer.Common.csproj", "{63B81FDA-3913-4E1E-8AAD-11548D30E139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommercePlacer.Data", "CommercePlacer.DataView\CommercePlacer.Data.csproj", "{A19F7BDB-1F87-415A-9243-2BEE9AD811ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Mock|Any CPU = Mock|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C6D1A7-776F-48B2-BEE4-A7B51FFCFD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C6D1A7-776F-48B2-BEE4-A7B51FFCFD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C6D1A7-776F-48B2-BEE4-A7B51FFCFD34}.Mock|Any CPU.ActiveCfg = Mock|Any CPU
+		{74C6D1A7-776F-48B2-BEE4-A7B51FFCFD34}.Mock|Any CPU.Build.0 = Mock|Any CPU
+		{74C6D1A7-776F-48B2-BEE4-A7B51FFCFD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C6D1A7-776F-48B2-BEE4-A7B51FFCFD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64ACE04-3835-462D-BD26-DA3636557C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64ACE04-3835-462D-BD26-DA3636557C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64ACE04-3835-462D-BD26-DA3636557C6E}.Mock|Any CPU.ActiveCfg = Mock|Any CPU
+		{A64ACE04-3835-462D-BD26-DA3636557C6E}.Mock|Any CPU.Build.0 = Mock|Any CPU
+		{A64ACE04-3835-462D-BD26-DA3636557C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64ACE04-3835-462D-BD26-DA3636557C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAB6D52-BBE9-4691-A928-A1FD9A2399BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAB6D52-BBE9-4691-A928-A1FD9A2399BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAB6D52-BBE9-4691-A928-A1FD9A2399BC}.Mock|Any CPU.ActiveCfg = Mock|Any CPU
+		{CBAB6D52-BBE9-4691-A928-A1FD9A2399BC}.Mock|Any CPU.Build.0 = Mock|Any CPU
+		{CBAB6D52-BBE9-4691-A928-A1FD9A2399BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAB6D52-BBE9-4691-A928-A1FD9A2399BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Mock|Any CPU.ActiveCfg = Mock|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Mock|Any CPU.Build.0 = Mock|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Mock|Any CPU.Deploy.0 = Mock|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E41EB84-B4D7-4899-81E0-2E3992D04DB7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{63B81FDA-3913-4E1E-8AAD-11548D30E139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B81FDA-3913-4E1E-8AAD-11548D30E139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B81FDA-3913-4E1E-8AAD-11548D30E139}.Mock|Any CPU.ActiveCfg = Mock|Any CPU
+		{63B81FDA-3913-4E1E-8AAD-11548D30E139}.Mock|Any CPU.Build.0 = Mock|Any CPU
+		{63B81FDA-3913-4E1E-8AAD-11548D30E139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B81FDA-3913-4E1E-8AAD-11548D30E139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19F7BDB-1F87-415A-9243-2BEE9AD811ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19F7BDB-1F87-415A-9243-2BEE9AD811ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19F7BDB-1F87-415A-9243-2BEE9AD811ED}.Mock|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19F7BDB-1F87-415A-9243-2BEE9AD811ED}.Mock|Any CPU.Build.0 = Debug|Any CPU
+		{A19F7BDB-1F87-415A-9243-2BEE9AD811ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19F7BDB-1F87-415A-9243-2BEE9AD811ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2D744E0-21B7-4AAA-8E7D-47BE6BB90FEA}
+	EndGlobalSection
+EndGlobal

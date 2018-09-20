@@ -1,0 +1,8 @@
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\bin\Mock\netstandard2.0\CommercePlacer.Common.deps.json
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\bin\Mock\netstandard2.0\CommercePlacer.Common.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\bin\Mock\netstandard2.0\CommercePlacer.Common.pdb
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\obj\Mock\netstandard2.0\CommercePlacer.Common.csproj.CoreCompileInputs.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\obj\Mock\netstandard2.0\CommercePlacer.Common.AssemblyInfoInputs.cache
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\obj\Mock\netstandard2.0\CommercePlacer.Common.AssemblyInfo.cs
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\obj\Mock\netstandard2.0\CommercePlacer.Common.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Common\obj\Mock\netstandard2.0\CommercePlacer.Common.pdb

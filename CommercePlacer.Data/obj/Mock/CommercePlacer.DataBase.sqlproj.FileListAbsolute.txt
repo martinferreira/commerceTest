@@ -1,0 +1,9 @@
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\bin\Debug\CommercePlacer.DataBase.dacpac
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\bin\Debug\CommercePlacer.Data.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\bin\Debug\CommercePlacer.Data.pdb
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\obj\Mock\CommercePlacer.Data.dll
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\obj\Mock\CommercePlacer.Data.pdb
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\obj\Mock\Model.xml
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\obj\Mock\refactor.xml
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\obj\Mock\postdeploy.sql
+c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.Data\obj\Mock\predeploy.sql
