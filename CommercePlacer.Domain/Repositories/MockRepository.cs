@@ -27,17 +27,22 @@ namespace CommercePlacer.Domain.Repositories
 
         public TEntity GetById(int id)
         {
-            throw new NotImplementedException();
+            return repo.FirstOrDefault(m => m.Id == id);
         }
 
         public void Insert(TEntity toInsert)
         {
-            throw new NotImplementedException();
+            if (toInsert.Id == 0)
+            {
+                toInsert.Id = repo.Count;
+            }
+            repo.Add(toInsert);
         }
 
         public void Update(TEntity toUpdate)
         {
-            throw new NotImplementedException();
+            DeleteById(toUpdate.Id);
+            Insert(toUpdate);
         }
     }
 }

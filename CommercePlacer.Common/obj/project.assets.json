@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\martin.ferreira\\source\\repos\\CommercePlacer\\CommercePlacer.Common\\CommercePlacer.Common.csproj",
+      "projectUniqueName": "C:\\Source\\commerceTest\\CommercePlacer.Common\\CommercePlacer.Common.csproj",
       "projectName": "CommercePlacer.Common",
-      "projectPath": "c:\\users\\martin.ferreira\\source\\repos\\CommercePlacer\\CommercePlacer.Common\\CommercePlacer.Common.csproj",
+      "projectPath": "C:\\Source\\commerceTest\\CommercePlacer.Common\\CommercePlacer.Common.csproj",
       "packagesPath": "C:\\Users\\martin.ferreira\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\martin.ferreira\\source\\repos\\CommercePlacer\\CommercePlacer.Common\\obj\\",
+      "outputPath": "C:\\Source\\commerceTest\\CommercePlacer.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

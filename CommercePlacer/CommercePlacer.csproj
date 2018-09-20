@@ -6,12 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Content Include="Controllers\ShowItemsController.cs" />
+    <Content Include="Views\ShowItems\Index.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="DependencyInjection" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.6" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommercePlacer.Api\CommercePlacer.Api.csproj" />
+    <ProjectReference Include="..\CommercePlacer.Common\CommercePlacer.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ShowItems\" />
   </ItemGroup>
 
 </Project>

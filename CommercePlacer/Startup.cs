@@ -11,10 +11,15 @@ namespace CommercePlacer
 {
     public class Startup
     {
+        private string environment;
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+            Api.Injection.Configuration.ConfigureServices(services, environment);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -24,11 +29,9 @@ namespace CommercePlacer
             {
                 app.UseDeveloperExceptionPage();
             }
+            this.environment = env.EnvironmentName;
+            app.UseMvcWithDefaultRoute();
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
         }
     }
 }

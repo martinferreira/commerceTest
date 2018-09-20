@@ -1,0 +1,14 @@
+
+CommercePlacer\.Api/bin/Debug/
+
+CommercePlacer\.Domain/bin/Debug/
+
+packages/DependencyInjection\.1\.0\.0/lib/netstandard2\.0/
+
+packages/DependencyInjection\.1\.0\.0/
+
+CommercePlacer/obj/Debug/netcoreapp2\.1/
+
+*.dll
+
+\.vs/CommercePlacer/v15/Server/sqlite3/

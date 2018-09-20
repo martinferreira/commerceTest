@@ -1,0 +1,10 @@
+C:\Source\commerceTest\CommercePlacer.Data\bin\Output\CommercePlacer.DataBase.dacpac
+C:\Source\commerceTest\CommercePlacer.Data\bin\Output\CommercePlacer.Data.dll
+C:\Source\commerceTest\CommercePlacer.Data\bin\Output\CommercePlacer.Data.pdb
+C:\Source\commerceTest\CommercePlacer.Data\obj\Debug\CommercePlacer.DataBase.sqlprojAssemblyReference.cache
+C:\Source\commerceTest\CommercePlacer.Data\obj\Debug\Model.xml
+C:\Source\commerceTest\CommercePlacer.Data\obj\Debug\refactor.xml
+C:\Source\commerceTest\CommercePlacer.Data\obj\Debug\postdeploy.sql
+C:\Source\commerceTest\CommercePlacer.Data\obj\Debug\predeploy.sql
+C:\Source\commerceTest\CommercePlacer.Data\obj\Debug\CommercePlacer.Data.dll
+C:\Source\commerceTest\CommercePlacer.Data\obj\Debug\CommercePlacer.Data.pdb

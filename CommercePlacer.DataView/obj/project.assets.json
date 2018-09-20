@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\martin.ferreira\\source\\repos\\CommercePlacer\\CommercePlacer.DataView\\CommercePlacer.Data.csproj",
+      "projectUniqueName": "C:\\Source\\commerceTest\\CommercePlacer.DataView\\CommercePlacer.Data.csproj",
       "projectName": "CommercePlacer.Data",
-      "projectPath": "c:\\users\\martin.ferreira\\source\\repos\\CommercePlacer\\CommercePlacer.DataView\\CommercePlacer.Data.csproj",
+      "projectPath": "C:\\Source\\commerceTest\\CommercePlacer.DataView\\CommercePlacer.Data.csproj",
       "packagesPath": "C:\\Users\\martin.ferreira\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\martin.ferreira\\source\\repos\\CommercePlacer\\CommercePlacer.DataView\\obj\\",
+      "outputPath": "C:\\Source\\commerceTest\\CommercePlacer.DataView\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

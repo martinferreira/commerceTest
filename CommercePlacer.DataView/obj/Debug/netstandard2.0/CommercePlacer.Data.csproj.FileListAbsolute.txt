@@ -7,3 +7,12 @@ c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj
 c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.dll
 c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.pdb
 c:\users\martin.ferreira\source\repos\CommercePlacer\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.csprojAssemblyReference.cache
+C:\Source\commerceTest\CommercePlacer.DataView\bin\Debug\netstandard2.0\CommercePlacer.Data.deps.json
+C:\Source\commerceTest\CommercePlacer.DataView\bin\Debug\netstandard2.0\CommercePlacer.Data.dll
+C:\Source\commerceTest\CommercePlacer.DataView\bin\Debug\netstandard2.0\CommercePlacer.Data.pdb
+C:\Source\commerceTest\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.csprojAssemblyReference.cache
+C:\Source\commerceTest\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.csproj.CoreCompileInputs.cache
+C:\Source\commerceTest\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.AssemblyInfoInputs.cache
+C:\Source\commerceTest\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.AssemblyInfo.cs
+C:\Source\commerceTest\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.dll
+C:\Source\commerceTest\CommercePlacer.DataView\obj\Debug\netstandard2.0\CommercePlacer.Data.pdb

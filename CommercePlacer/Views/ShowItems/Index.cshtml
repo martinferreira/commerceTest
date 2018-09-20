@@ -1,0 +1,33 @@
+﻿
+@model List<CommercePlacer.Common.Dto.DenormalisedOrder>
+@{
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    Description
+                </td>
+                <td>
+                    Quanity
+                </td>
+                <td>
+                    Price
+                </td>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var model in Model)
+            {
+            <tr>
+                <td>@Html.DisplayFor(m => model.Description)</td>
+                <td>@Html.DisplayFor(m => model.Quantity)</td>
+                <td>@Html.DisplayFor(m => model.Price)</td>
+            </tr>
+                
+            }
+        </tbody>
+
+    </table>
+
+}

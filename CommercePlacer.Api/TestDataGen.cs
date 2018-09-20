@@ -46,6 +46,7 @@ namespace CommercePlacer.Api
                     };
                     newEntry.Item.Category.Description = "Mock Category";
 
+                    order.Entries = new List<OrderEntry>();
                     order.Entries.Add(newEntry);
 
                 }

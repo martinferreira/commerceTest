@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "508fee09cb0b1bef4c0f69eb83f783d485056cb7"
+    "signature": "a9f1550146c050676e625deb837fe9dffefdc037"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,10 @@
     ".NETCoreApp,Version=v2.1": {
       "CommercePlacer/1.0.0": {
         "dependencies": {
+          "CommercePlacer.Api": "1.0.0",
+          "CommercePlacer.Common": "1.0.0",
+          "DependencyInjection": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.6",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
@@ -33,6 +37,73 @@
         },
         "compile": {
           "CommercePlacer.dll": {}
+        }
+      },
+      "DependencyInjection/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/DependencyInjectionLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/DependencyInjectionLib.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.6": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.2.6",
+          "Microsoft.AspNet.WebPages": "3.2.6"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.6": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.6": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.2.6",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -356,6 +427,17 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
         }
       },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        },
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
@@ -510,6 +592,37 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "CommercePlacer.Api/1.0.0": {
+        "dependencies": {
+          "CommercePlacer.Common": "1.0.0",
+          "CommercePlacer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CommercePlacer.Api.dll": {}
+        },
+        "compile": {
+          "CommercePlacer.Api.dll": {}
+        }
+      },
+      "CommercePlacer.Common/1.0.0": {
+        "runtime": {
+          "CommercePlacer.Common.dll": {}
+        },
+        "compile": {
+          "CommercePlacer.Common.dll": {}
+        }
+      },
+      "CommercePlacer.Domain/1.0.0": {
+        "dependencies": {
+          "CommercePlacer.Common": "1.0.0"
+        },
+        "runtime": {
+          "CommercePlacer.Domain.dll": {}
+        },
+        "compile": {
+          "CommercePlacer.Domain.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3463,6 +3576,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "DependencyInjection/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KqCJa1bNJfVcPksxhfjgpGbgcoMB3s62+NFNZ6rcDCsHB9VBIdle5cc/vWA7pwrssES1E/xjm5lDEslVqlXDCQ==",
+      "path": "dependencyinjection/1.0.0",
+      "hashPath": "dependencyinjection.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Mvc/5.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kBiyGUUBLE8JyQDTdmsBW0MyKg3VbB6FCrhu2pZiT9uOdS7uqADryIApWnUWmzDj4+4Q3/c/sgBM+Y+kDUFTyg==",
+      "path": "microsoft.aspnet.mvc/5.2.6",
+      "hashPath": "microsoft.aspnet.mvc.5.2.6.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/3.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AmdtrCaQtafgIzjaJjWjntWCE28c9CZnwSOFBC7zqt9OWJ9+uaxDQYSF1CHlyQOgTCzU7U9kux45cEoXXrwGDw==",
+      "path": "microsoft.aspnet.razor/3.2.6",
+      "hashPath": "microsoft.aspnet.razor.3.2.6.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cr2MOsKLhxR0aM5LlrTKYPxbDZk8IIdEyxm7qcs8v1hn7VFgk9igvCM4R/sYqy6MN+9v3ry77D7aCsp542t1Dw==",
+      "path": "microsoft.aspnet.webpages/3.2.6",
+      "hashPath": "microsoft.aspnet.webpages.3.2.6.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3575,6 +3716,13 @@
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.1",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.2.1.1.nupkg.sha512"
     },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
+    },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
@@ -3637,6 +3785,21 @@
       "sha512": "sha512-td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "CommercePlacer.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommercePlacer.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommercePlacer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

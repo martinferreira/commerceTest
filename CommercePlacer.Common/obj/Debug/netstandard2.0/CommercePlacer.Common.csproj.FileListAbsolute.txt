@@ -1,0 +1,9 @@
+C:\Source\commerceTest\CommercePlacer.Common\bin\Debug\netstandard2.0\CommercePlacer.Common.deps.json
+C:\Source\commerceTest\CommercePlacer.Common\bin\Debug\netstandard2.0\CommercePlacer.Common.dll
+C:\Source\commerceTest\CommercePlacer.Common\bin\Debug\netstandard2.0\CommercePlacer.Common.pdb
+C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.csprojAssemblyReference.cache
+C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.csproj.CoreCompileInputs.cache
+C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.AssemblyInfoInputs.cache
+C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.AssemblyInfo.cs
+C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.dll
+C:\Source\commerceTest\CommercePlacer.Common\obj\Debug\netstandard2.0\CommercePlacer.Common.pdb
